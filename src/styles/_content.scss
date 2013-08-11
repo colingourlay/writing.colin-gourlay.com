@@ -1,0 +1,67 @@
+.content {
+  margin: 0 auto;
+  max-width: 90%;
+
+  @include breakpoint(tablet) {
+    max-width: 640px;
+  }
+
+  @include breakpoint(desktop) {
+    max-width: 736px;
+  }
+}
+
+.content footer p {
+  margin: 1em 2em;
+}
+
+.teaser h2 a {
+    color: $baseTextColor;
+}
+
+
+.teaser header figure a span:hover {
+  -webkit-animation: pulse 1s infinite; /* Chrome, Safari 5+ */
+     -moz-animation: pulse 1s infinite; /* Firefox 5-15 */
+       -o-animation: pulse 1s infinite; /* Opera 12.00 */
+          animation: pulse 1s infinite; /* Chrome, Firefox 16+, IE 10+, Opera 12.10+ */
+}
+
+.teaser footer span {
+  overflow: hidden;
+}
+
+.teaser footer a:hover span {
+  -webkit-animation: reveal 0.5s infinite; /* Chrome, Safari 5+ */
+     -moz-animation: reveal 0.5s infinite; /* Firefox 5-15 */
+       -o-animation: reveal 0.5s infinite; /* Opera 12.00 */
+          animation: reveal 0.5s infinite; /* Chrome, Firefox 16+, IE 10+, Opera 12.10+ */
+}
+
+.archive li {
+  position: relative;
+  list-style: none;
+
+  @include breakpoint(tablet) {
+    padding-left: 7em;
+  }
+}
+
+.archive li span {
+  color: $grey;
+  padding-right: 0.5em;
+
+  @include breakpoint(tablet) {
+    position: absolute;
+    left: 0;
+    width: 6em;
+    padding-right: 0;
+    text-align: right;
+  }
+}
+
+.contact span {
+  vertical-align: middle;
+  margin-right: 0.5em;
+  color: $baseTextColor;
+}

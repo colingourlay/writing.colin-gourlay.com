@@ -1,0 +1,16 @@
+extends base
+
+block content
+  article.archive
+    header
+      h1 Posts archive
+      small
+
+    section
+      ol
+        each post in posts
+          li
+            span!= [post.date.getDate(), ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"][post.date.getMonth()], post.date.getUTCFullYear()].join(' ')
+            a(href="#{post.url}")= post.title
+    footer
+      hr

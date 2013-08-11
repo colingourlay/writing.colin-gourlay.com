@@ -1,0 +1,33 @@
+.clearfix,
+.group {
+  @include clearfix;
+}
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+.bg-white {
+    background: $white;
+}
+
+.bg-green {
+    background: $green;
+}
+
+.bg-blue {
+    background: $blue;
+}
+
+.bg-orange {
+    background: $orange;
+}
+
+.bg-purple {
+    background: $purple;
+}
+
+.bg-dark-grey {
+    background: $darkGrey;
+}
