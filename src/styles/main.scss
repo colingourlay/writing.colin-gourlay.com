@@ -7,10 +7,11 @@
 
 @import 'variables';
 @import 'mixins';
+
+@import 'normalize';
+
 @import 'base';
 @import 'content';
 
-@import 'normalize.css';
-@import 'solarized-dark.css';
-
+@import 'solarized-dark';
 @import 'utilities';
