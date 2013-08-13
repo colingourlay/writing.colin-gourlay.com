@@ -11,7 +11,7 @@ CampJS was created by [Tim Oxley](http://twitter.com/secoif), who wanted to brin
 
 ![The sea of JS developers](/images/sea-of-coders-at-campjs.jpg)
 
-If you've ever been to a RailsCamp, you're already familiar with the general format. Where CampJS differs (from what I've been told by co-organiser [Nigel Rausch](https://twitter.com/nr99)) is that there's more emphasis on encouraging attendees to give talks / hold workshops. This year included:
+If you've ever been to a RailsCamp, you're already familiar with the general format. Where CampJS differs (from what I've been told) is that there's more emphasis on encouraging attendees to give talks / hold workshops. This year included:
 
 * Firefox OS apps
 * Angular.js & Meteor
@@ -37,6 +37,6 @@ All of the talks & demos were recorded, as were a bunch of interviews with atten
 
 As an unexpected bonus on the night we arrived, everyone sang Happy Birthday to me and I was presented with a [cupcake that had my face on it](https://twitter.com/collypops/status/366792479980257280). It really set the mood for what was to become an unforgettable weekend.
 
-Thanks to Tim, Nigel, [Geoff](https://twitter.com/geoffreyd), [Rod](https://twitter.com/rvagg), the other speakers and everyone else who came and made it the success it was. It's looking like the next CampJS will be held in Melbourne in early 2014. Until then, check out the [Google+ community](https://plus.google.com/communities/106906604683614333625) for photos, and follow [@campjsnews](http://twitter.com/campjsnews) for announcements.
+Thanks to Tim, co-organisers [Nigel](https://twitter.com/nr99), [Geoff](https://twitter.com/geoffreyd) & [Rod](https://twitter.com/rvagg), the other speakers and everyone else who came and made it the success it was. It's looking like the next CampJS will be held in Melbourne in early 2014. Until then, check out the [Google+ community](https://plus.google.com/communities/106906604683614333625) for photos, and follow [@campjsnews](http://twitter.com/campjsnews) for announcements.
 
 ![Me at CampJS](/images/bat-onesie-at-campjs.jpg)
