@@ -15,6 +15,10 @@ module.exports = function (grunt) {
           livereload: true
         }
       },
+      gruntfile: {
+        files: ['Gruntfile.js'],
+        tasks: ['build']
+      },
       compass: {
         files: ['src/styles/**'],
         tasks: ['compass']
@@ -31,6 +35,13 @@ module.exports = function (grunt) {
 
     writing: {
       dist: {
+        meta: {
+          title: 'Writing - Colin Gourlay',
+          description: 'A collection of writing by full-stack web developer Colin Gourlay',
+          author: 'Colin Gourlay',
+          url: 'http://writing.colin-gourlay.com',
+          lang: 'en'
+        },
         templates: 'src/templates',
         posts: 'src/posts',
         dest: 'dist'

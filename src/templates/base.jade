@@ -55,23 +55,26 @@ mixin postTeaser(post)
       mixin postTeaserFooter(post)
 
 doctype 5
-html
+html(lang="#{meta.lang}")
   head
     meta(charset="utf8")
     meta(http-equiv="X-UA-Compatible", content="IE=edge,chrome=1")
     meta(name="viewport", content="width=device-width,initial-scale=1.0,maximum-scale=1.0")
     meta(name="HandheldFriendly", content="True")
     meta(name="MobileOptimized", content="320")
-    meta(name="author", content="Colin Gourlay")
+    meta(name="description", content="#{meta.description}")
+    meta(name="author", content="#{meta.author}")
+    link(rel="alternate", type="application/rss+xml", href="#{meta.rssURL}", title="#{meta.title}")
     link(rel="shortcut icon", href="favicon.ico")
     link(href="/styles/main.css", rel="stylesheet")
     block title
-      title= "Writing - Colin Gourlay"
+      title!= meta.title
   body
     .content
       block content
       footer
         hr
+        p!= 'Colin Gourlay ' + (new Date()).getUTCFullYear() + ' '
         p.contact
           a(href="https://twitter.com/collypops")
             span(class="ss-icon ss-social-circle ss-twitter")
@@ -79,7 +82,8 @@ html
             span(class="ss-icon ss-social-circle ss-octocat")
           a(href="mailto:colin@colin-gourlay.com")
             span(class="ss-icon ss-social-circle ss-mail")
-          != 'Colin Gourlay ' + (new Date()).getUTCFullYear() + ' '
+          a(href="/")
+            span(class="ss-icon ss-social-circle ss-rss")
     script.
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
