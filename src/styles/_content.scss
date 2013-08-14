@@ -61,7 +61,29 @@
 }
 
 .contact span {
-  vertical-align: middle;
-  margin-right: 0.5em;
+  margin: 0 0.125em;
   color: $baseTextColor;
+  font-size: 2em;
+  vertical-align: middle;
+  -webkit-transition: color 0.375s ease-in-out;
+     -moz-transition: color 0.375s ease-in-out;
+      -ms-transition: color 0.375s ease-in-out;
+       -o-transition: color 0.375s ease-in-out;
+          transition: color 0.375s ease-in-out;
+}
+
+.contact .ss-twitter:hover {
+  color: #4099FF;
+}
+
+.contact .ss-octocat:hover {
+  color: #4183C4;
+}
+
+.contact .ss-mail:hover {
+  color: #AE4A54;
+}
+
+.content .ss-rss:hover {
+  color: #D26911;
 }
