@@ -100,6 +100,18 @@ module.exports = function (grunt) {
           ]
         }]
       }
+    },
+
+    ftpush: {
+      webfaction: {
+        auth: {
+          host: 'colingourlay.webfactional.com',
+          port: 21,
+          authKey: 'webfaction'
+        },
+        src: 'dist',
+        dest: 'webapps/writing_colingourlay'
+      }
     }
 
   });
@@ -116,6 +128,10 @@ module.exports = function (grunt) {
     'connect',
     'open',
     'watch'
+  ]);
+
+  grunt.registerTask('deploy', [
+    'ftpush:webfaction'
   ]);
 
   grunt.registerTask('default', 'server');

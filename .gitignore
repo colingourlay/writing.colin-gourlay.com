@@ -1,4 +1,6 @@
 .DS_Store
+.ftppass
+.grunt
 .sass-cache
 dist
 node_modules
