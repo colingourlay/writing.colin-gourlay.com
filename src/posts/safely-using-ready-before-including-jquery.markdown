@@ -2,7 +2,7 @@
 title: Safely using .ready() before including jQuery
 date: 2012-2-17
 color: green
-icon: coin
+icon: code
 ----
 
 Earlier today, I read [Stop paying your jQuery tax](http://samsaffron.com/archive/2012/02/17/stop-paying-your-jquery-tax), an excellent article by [Sam Saffron](http://samsaffron.com/) which explains why it's a great idea to move all of your external JavaScripts to the end of the HTML document, then proposes a method which allows you to continue to use jQuery's `.ready()` method anywhere in your document, even though you've moved jQuery itself to the bottom. I've taken that a step further.

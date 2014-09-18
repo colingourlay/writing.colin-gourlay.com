@@ -2,7 +2,7 @@
 title: Moving the Web Forward
 date: 2011-12-1
 color: blue
-icon: forward
+icon: arrow-right
 ----
 
 There are a few developers out there such as [Christian Heilmann](http://christianheilmann.com) and [Paul Irish](http://paulirish.com) who are constantly making outstanding contributions to our community. They, and countless others are developing tools and libraries that make our work a lot easier, creating richer experiences and showing us how we can harness web standards to bring these experiences to as many people as possible. Yesterday, a website launched to let us know that we're invited to the party too.
