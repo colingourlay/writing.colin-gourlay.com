@@ -2,7 +2,7 @@
 title: To Scotland
 date: 2014-9-18
 color: blue
-icon: checkbox-checked
+icon: dice
 ----
 
 So we come to it. The vote.
